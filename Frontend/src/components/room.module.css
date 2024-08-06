@@ -1,0 +1,85 @@
+.chatInterface {
+  height: 40em;
+  width: 45rem;
+  background-color: #463e2e;
+  margin: 3rem auto;
+  border-radius: 2rem;
+  position: relative;
+}
+
+.header {
+  color: black;
+  margin: 0;
+  padding: 0.5rem;
+  height: 3rem;
+  background-color: #df9f29;
+  border-radius: 2rem 2rem 0 0;
+}
+
+.textbar {
+  background-color: #463e2e;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 2rem;
+}
+
+.textbar button {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  background-color: #e3d5bc;
+  margin-left: 0.25rem;
+}
+
+.textbar button:hover {
+  box-shadow: 0px 0px 12px black;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px 0 black;
+}
+
+.textbar input {
+  background-color: #e3d5bc;
+  width: 15rem;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+
+.body {
+  font: inherit;
+  font-size: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  height: 30rem;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.message {
+  margin-top: 0.5rem;
+  border-radius: 1rem;
+  margin: 1rem;
+  max-width: 50%;
+  word-wrap: break-word;
+  word-break: break-word;
+  white-space: pre-wrap;
+}
+
+.message_content p {
+  margin: 0 0 0.5rem 0;
+  color: black;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.55rem;
+  border-radius: 0.75rem;
+}
+
+.message_meta p {
+  margin: 0 0.25rem 0 0.25rem;
+  display: inline-block;
+  font-size: 0.6rem;
+  color: white;
+}
