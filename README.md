@@ -7,6 +7,31 @@ Mongodb,
 ExpressJS,
 ReactJS,
 NodeJS,
-CSS
+CSS.
+
+Installation: Firstly, Clone this repository using the below commands
+git clone https://github.com/Thrivikramteja/ChattingApp.git
+cd ChattingApp
+
+After cloning, Navigate to the backend folder and install the necessary dependencies:
+cd Backend
+npm install
+
+Same goes with Frontend folder,
+cd ../Frontend(When you are in Backend folder)
+npm install
+
+Start the Backend with,
+npm start
+
+and Frontend with,
+npm run dev
+
+ 
+
+
+
+
+
 
 
