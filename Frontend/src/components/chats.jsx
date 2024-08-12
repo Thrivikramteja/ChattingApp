@@ -15,6 +15,7 @@ function Chats() {
 
   return (
     <div className={Classes.body}>
+      <p>Join or create a room</p>
       <button onClick={CreateHandler}>Create a Chat Room</button>
       <button id={Classes.join} onClick={JoinHandler}>
         Join a Chat Room

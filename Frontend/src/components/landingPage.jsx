@@ -6,9 +6,9 @@ function LandingPage() {
   return (
     <>
       <div className={Classes.body}>
-        <p className={Classes.body}>Welcome to ChatApp!</p>
+        <p className={Classes.body}>Welcome to FleetingTalk!</p>
         <p className={Classes.body}>
-          Chat with your friends and family members!
+          Where conversations are as temporary as they are meaningful.
         </p>
       </div>
 
